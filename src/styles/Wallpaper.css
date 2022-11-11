@@ -1,4 +1,28 @@
 .wallpaper {
-  background-color: red;
   grid-area: wallpaper;
+}
+.wallpaper-container {
+  height: 100%;
+  width: 85%;
+  background-color: rgb(155, 155, 155);
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-wrapper {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.profile {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-image: url("https://img.icons8.com/fluency-systems-regular/20/000000/guest-male.png");
+  background-color: antiquewhite;
+  background-position: center;
 }

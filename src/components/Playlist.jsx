@@ -5,7 +5,11 @@ function Playlist() {
     <div className="playlist box">
       <div className="playlist-title title">playlist</div>
       <div className="playlist-heading">Best of</div>
-      <div className="Playlists"></div>
+      <div className="playlists-section">
+        <div className="playlists"></div>
+        <div className="playlists"></div>
+        <div className="playlists"></div>
+      </div>
     </div>
   );
 }

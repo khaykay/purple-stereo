@@ -1,7 +1,22 @@
 .playlist {
   grid-area: playlist;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .playlist-heading {
-  font-size: large;
-  font-weight: 600;
+  font-size: xx-large;
+  font-weight: 500;
+}
+.playlists-section {
+  height: 55%;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.playlists {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(155, 155, 155);
+  border-radius: 20px;
 }

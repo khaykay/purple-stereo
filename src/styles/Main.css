@@ -1,8 +1,8 @@
 .main {
-  height: calc(100% - 70px);
+  height: calc(100% - 80px);
   width: 100%;
-  background-color: aqua;
   display: grid;
+  /* background-color: aquamarine; */
   grid-template-columns: 90px repeat(2, 3fr);
-  grid-template-areas: " sidebar playlist wallpaper";
+  grid-template-areas: " sidebar home wallpaper";
 }

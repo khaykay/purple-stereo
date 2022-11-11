@@ -9,7 +9,7 @@
   flex-basis: 50%;
 }
 .home {
-  grid-area: playlist;
+  grid-area: home;
 }
 .home-wrapper {
   height: 100%;
