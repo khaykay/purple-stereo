@@ -1,0 +1,21 @@
+.title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: small;
+  font-weight: 500;
+}
+.box {
+  width: 100%;
+  background-color: bisque;
+}
+.popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.popular-song-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

@@ -1,0 +1,8 @@
+.main {
+  height: calc(100% - 70px);
+  width: 100%;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 90px repeat(2, 3fr);
+  grid-template-areas: " sidebar playlist wallpaper";
+}

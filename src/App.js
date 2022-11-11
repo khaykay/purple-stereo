@@ -1,9 +1,9 @@
 import "./App.css";
-import Home from "./components/Home";
+import PurpleStereo from "./components/PurpleStero";
 function App() {
   return (
     <>
-      <Home />
+      <PurpleStereo />
     </>
   );
 }

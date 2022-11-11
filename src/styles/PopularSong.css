@@ -1,0 +1,40 @@
+.popular {
+  grid-area: popular;
+}
+.popular-song {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.small-icon {
+  height: 17px;
+  width: 17px;
+}
+.popular-song-profile {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  outline: 1px solid red;
+}
+.details-popular-song {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.popular-song-title,
+.popular-song-artist {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.popular-song-title {
+  font-size: 12px;
+  font-weight: 500;
+}
+.popular-song-artist {
+  font-size: 12px;
+  color: #999898;
+}

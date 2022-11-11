@@ -1,11 +1,22 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-
+import "../styles/Home.css";
+import Playlist from "./Playlist";
+import Popular from "./Popular";
 function Home() {
   return (
-    <>
-      <Sidebar />
-    </>
+    <div className="home">
+      <div className="home-wrapper">
+        <div className="input-search">
+          <input
+            type="search"
+            name="search"
+            placeholder="Search for songs, artists"
+          />
+        </div>
+        <Popular />
+        <Playlist />
+      </div>
+    </div>
   );
 }
 
