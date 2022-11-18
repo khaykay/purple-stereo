@@ -1,0 +1,32 @@
+.audio-controls-wrapper {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.audio-controls-wrapper .prev svg,
+.audio-controls-wrapper .next svg {
+  width: 16px;
+  height: 16px;
+}
+.audio-controls-wrapper .fastforward svg,
+.audio-controls-wrapper .fastbackward svg {
+  width: 25px;
+  height: 25px;
+}
+.audio-controls-wrapper .play svg,
+.audio-controls-wrapper .pause svg {
+  height: 30px;
+  width: 30px;
+}
+
+.audio-controls-wrapper svg path {
+  fill: rgb(182, 180, 180);
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}

@@ -1,0 +1,23 @@
+.audioplayer {
+  outline: 1px solid red;
+  height: 100px;
+}
+.audioplayer-wrapper {
+  height: 100%;
+  padding-left: 55px;
+  display: flex;
+  align-items: center;
+}
+.track-image {
+  height: 70%;
+  width: 85px;
+  border-radius: 20%;
+  background-color: rgb(155, 155, 155);
+}
+.audio-controls {
+  width: 170px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
